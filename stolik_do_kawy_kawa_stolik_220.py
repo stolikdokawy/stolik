@@ -1,7 +1,7 @@
 import pygame
 import sys
 pygame.init()
-screen_game=pygame.display.set_mode((700,700))
+screen_game=pygame.display.set_mode((700,700))#ustawiamy wymiary ekranu gry
 screen_rect=screen_game.get_rect()#tworzymy prostokat ekranu
 limegreen = (50, 205, 50)
 black = (0, 0, 0)
