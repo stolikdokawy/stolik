@@ -12,6 +12,7 @@ y=50#poczatkowe polozenie kubka
 x_stolika=screen_rect.centerx - 110#minus polowa dlugosci stolika
 y_stolika=screen_rect.bottom - 126#minus wysokosc stolika
 stolik_image = pygame.image.load("stolik_220x126.png")
+kawa_image = pygame.image.load("pani_fral_70x70.png")
 zegar=pygame.time.Clock()#ustawiamy zegar
 
 while True:
